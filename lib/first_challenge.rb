@@ -22,3 +22,6 @@ puts contacts
   contacts
 end
 
+contacts.each do |person, data|
+  puts "#{person}: #{data}"
+end 
